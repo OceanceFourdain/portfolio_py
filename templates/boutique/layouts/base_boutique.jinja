@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Océance boutique</title>
+        <meta charset="utf-8" />
+        <!-- Link of css -->
+        <link href="/static/css/boutique/boutique_main.css" rel="stylesheet"/>
+        {% if boutiquecss is defined %}
+        <link href="/static/css/boutique/{{ boutiquecss }}.css" rel="stylesheet">
+        {% endif %}
+
+        <!-- Link of js -->
+    </head>
+    <body>
+        <header>
+            <div class="boutique-navbar flex">
+                <h1 class="boutique-navbar-h1"><a href="{{ url_for('index') }}" class="boutique-navbar-a">Océance Vente</a></h1>
+                <nav class="boutique-navbar-container flex flex-row" id="boutique-navbar-responsive">
+                    <a href="{{ url_for('boutique_home') }}" class="boutique-navbar-a">Home</a>
+                    <a href="{{ url_for('boutique_product') }}" class="boutique-navbar-a">Product</a>
+                    <a href="" class="boutique-navbar-a">Connect</a>
+                </nav>
+            </div>
+        </header>
+        <main class="container-global">
+            {% block content %} {% endblock %}
+        </main>
+        <footer>
+            <div class="boutique-footer">
+                <p>@ Copyright Océance Fourdain</p>
+                <div class="flex flex-row boutique-footer-container">
+                    <a>Lien 1</a>
+                    <a>Lien 2</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

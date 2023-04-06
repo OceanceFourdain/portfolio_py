@@ -1,0 +1,17 @@
+{% extends "layouts/base.jinja" %}
+{% block content %}
+<section class="section-projet personal-tab-3" id="projet">
+    <h1 class="personal-test-h2">Les pokemons</h1>
+    
+    <div class="cart-deck">
+     {%for pok in pokemons %}
+        <figure class="cart-personal">
+            <a href="/project/pokemon/{{ pok.id }}" target="_blank">
+                <img src="Https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/{{ pok['id'] }}.svg"  alt="Pokemon"/>
+             </a>
+        </figure>
+    {% endfor %}
+    </div>
+</section>
+{%endblock%}
+

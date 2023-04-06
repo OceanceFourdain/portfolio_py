@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Océance Fourdain</title>
+        <meta charset="utf-8" />
+        <!-- Link of css -->
+        <link rel="stylesheet" href="/static/css/main.css"/>
+        {% if pagecss is defined %}
+        <link href="/static/css/pages/{{ pagecss }}.css" rel="stylesheet">
+        {% endif %}
+        {% if boutiquecss is defined %}
+        <link href="/static/css/boutique/{{ pagecss }}.css" rel="stylesheet">
+        {% endif %}
+
+        <!-- Link of js -->
+    </head>
+    <body>
+        <header>
+            <div class="personal-navbar">
+                <h1 class="personal-navbar-h1">Mon portfolio</h1>
+                <nav class="personal-navbar-container" id="personal-navbar-responsive">
+                    <a href="{{ url_for('index') }}" class="personal-navbar-a">Accueil</a>
+                    <a href="{{ url_for('profil') }}" class="personal-navbar-a">Mon profil</a>
+                    <a href="{{ url_for('project') }}" class="personal-navbar-a">Mes projets</a>
+                    <a href="{{ url_for('contact') }}" class="personal-navbar-a">Contact</a>
+                    <a href="javascript:void(0);" class="personal-navbar-button-responsive" onclick="showNav()"><span class="fas fa-bars"></span></a>
+                </nav>
+            </div>
+        </header>
+        <main class="container-global">
+            {% block content %} {% endblock %}
+        </main>
+    </body>
+</html>

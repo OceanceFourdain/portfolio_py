@@ -1,0 +1,11 @@
+
+{% block content %}
+	<h1>CV Arthur Wattellier</h1>
+	<h2>Expériences</h2>
+	<span class="date">{% block exp_date %}{% endblock %}</span>
+	<h3>{% block exp_title %}{% endblock %}</h3>
+	<address>{% block exp_address %}{% endblock %}</address>
+	<ul>
+		{% block exp_comp %}{% endblock %}
+	</ul>	
+{% endblock %}

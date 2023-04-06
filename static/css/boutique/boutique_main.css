@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Amatic SC";
+    src: url("../AmaticSC-Regular.ttf"),
+        url("../AmaticSC-Bold.ttf");
+}
+
+body {
+    margin: 0!important;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+    background-color: #ebe9e9;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    font-family: 'Amatic SC';
+    background-color: rgb(101, 98, 98);
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.boutique-footer-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+/*
+    Header boutique
+*/
+header {
+    width: 100%;
+    font-family: 'Amatic SC';
+    background-color: rgb(101, 98, 98);
+    color: white;
+}
+
+.boutique-navbar {
+    justify-content: space-around;
+}
+.boutique-navbar-container {
+    margin-top: 25px;
+    width: 20%;
+    justify-content: space-around;
+}
+.boutique-navbar-a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.boutique-navbar-a:hover {
+    text-decoration: underline;
+}
+
+
+.container-global {
+    padding: 2%;
+}
+
+/*
+    Zone flex
+*/
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-top {
+    margin-top: 1%;
+}
+
+.divider {
+    border-radius: 10px;
+    background-color: #444;
+    width: 300px;
+    height: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,108 @@
+.cart-deck {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 2%;
+  }
+  .cart-personal {
+    width: 15%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    background-color: beige;
+  }
+
+.cart-pokemon {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  background-color: beige;
+}
+.cart-pokemon > .personal-test-h2 {
+  color: black;
+}
+.test > img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: fill;
+  background-position: center;
+}
+
+/* Carte personal  */
+.cart-personal h4 {
+  font-family: "Amatic SC";
+  font-size: 20px;
+}
+
+.personal-test-h2 {
+  text-align: center;
+  color: White;
+  font-size: 30px;
+  font-family: 'Amatic SC';
+}
+
+.cart-personal:hover {
+  transform: scale(1.05);
+}
+
+.cart-personal img {
+  width: 100%;
+  margin-top: 30px;
+  background-size: contain;
+  object-fit: fill;
+  background-position: center;
+}
+.cart-personal > p {
+  margin-top: 0!important;
+}
+.cart-personal .personal-a {
+  /*margin-top: 1%;*/
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cart-personal .personal-a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+}
+.container-info {
+    margin-left: 20px;
+}
+.container-info-plus {
+    width: 80%;
+}
+
+.flex-link {
+    justify-content: space-between;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.li-none {
+    list-style-type: none;
+    justify-content: space-between;
+}

@@ -1,0 +1,46 @@
+.container-home {
+    height: 200px;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.container-home > img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.card-deck {
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.card-product {
+    width: 30%;
+    padding: 1%;
+    background-color: white;
+    text-align: right;
+}
+
+.card-product-p {
+    text-align: justify;
+}
+
+.card-product-a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.card-product > h2 {
+    text-align: center;
+    font-family: 'Amatic SC';
+}
+
+.font {
+    font-family: 'Amatic SC';
+}

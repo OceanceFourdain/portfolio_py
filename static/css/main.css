@@ -1,0 +1,296 @@
+
+@font-face {
+    font-family: "Amatic SC";
+    src: url("AmaticSC-Regular.ttf"),
+        url("AmaticSC-Bold.ttf");
+  
+  }
+
+  body {
+    margin: 0!important;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+    background-image: url("../img/fond_color1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .container-global {
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-image: url("../img/fond_color1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  /* ============================== */
+          /* Css global */
+  /* ============================== */
+  .color-white {
+    color: white;
+  }
+  
+  .divider {
+    border: 1px solid #444;
+    width: 300px;
+    height: 2px;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  /*
+  .container-global {
+    width: 80%;
+    margin: 25% 10% 5%;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+  }*/
+  
+  /* Personal-navbar */
+  
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #F8F9FA;
+  }
+  
+  .personal-navbar {
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .personal-navbar-h1 {
+    text-decoration: none;
+    color: #444;
+    margin-top: 25px;
+    float: left;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+  }
+  .personal-navbar-container {
+    float: right;
+    margin-top: 40px;
+  }
+  
+  .personal-navbar-a {
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'arial', cursive, "Comic Sans MS";
+  }
+  
+  .personal-navbar-a:hover {
+    border-bottom: 5px solid #4FA2E0;
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .personal-navbar-button-responsive {
+    display: none;
+  }
+  
+  .personal-h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+  }
+  /* Menu en resolution */
+  @media screen and (max-width: 768px) {
+  
+    header {
+      height: 200px;
+    }
+  
+    .personal-navbar {
+      width: 100%;
+    }
+  
+    .personal-navbar-container {
+      float: right;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .personal-navbar-a {
+      font-size: 25px;
+      font-family: "Amatic SC";
+      text-decoration: none;
+    }
+    .personal-navbar-a:hover {
+      font-size: 25px;
+      font-family: "Amatic SC";
+      color: #4FA2E0;
+      text-decoration: underline;
+  
+    }
+  /*
+    .personal-navbar-container a:not(:first-child) {
+      display: none;
+    }
+    .personal-navbar-container .personal-navbar-button-responsive {
+      float: right;
+      display: block;
+      position: absolute;
+      color: #444;
+      right: 40px;
+      top: 40px;
+    }*/
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+  /*
+  
+    .personal-navbar-container.responsive {position: relative;}
+    .personal-navbar-button-responsive {
+      position: absolute;
+      top: 40px;
+    }
+    .personal-navbar-container.responsive  .personal-navbar-a {
+      float: none;
+      display: block;
+      text-align: left;
+      background: #F4F5F6;
+    }
+  
+    .personal-navbar-a {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      color: #444;
+      font-family: 'arial', cursive, "Comic Sans MS";
+    }
+  
+    .personal-navbar-a:hover {
+      border-bottom: 2px solid #4FA2E0;
+    }*/
+  
+  }
+  
+  /* Section accueil */
+  
+  .section-accueil {
+    background-image: url('../img/fond_color1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 710px;
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+  
+  .section-accueil h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+   .btn-personal-accueil {
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid #444;
+    text-decoration: none;
+    color: white;
+    background-color: #4FA2E0;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 65%;
+    height: 35px;
+  }
+  .btn-personal-accueil:hover {
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid #444;
+    text-decoration: none;
+    color: #444;
+    background-color: #4FA2E0;
+    font-size: 25px;
+  }
+  
+  .text-test {
+    color: #4FA2E0;
+  }
+  
+  .bg-test {
+    background-color: #4FA2E0!important;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-accueil {
+      background-image: url('../img/fond_color1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+      padding: 30% 0;
+    }
+    .text-interne {
+      text-align: center;
+    }
+    .section-accueil h1 {
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    .section-accueil .btn-personal-accueil {
+      border-radius: 5px;
+      text-transform: uppercase;
+      border: 1px solid #444;
+      color: white;
+      background-color: #4FA2E0;
+      margin-left: 40%;
+      margin-top: 2%;
+    }
+    .section-accueil .btn-personal-accueil:hover {
+      border-radius: 5px;
+      text-transform: uppercase;
+      border: 1px solid #444;
+      color: grey;
+      text-decoration: underline;
+      background-color: #4FA2E0;
+      margin-left: 40%;
+      margin-top: 2%;
+    }
+  }
+  @media all and (max-width: 414px) {
+  
+  
+    .section-accueil .btn-personal-accueil {
+      width: 100%;
+      height: 30px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      border: 1px solid #444;
+      color: white;
+      background-color: #4FA2E0;
+      margin-top: 2%;
+      margin-left: 35%;
+    }
+  }
+  
+  /* ============================== */
+          /* Section profil */
+  /* ============================== */
+  
+  
+  
+
+  /* ============================== */
+          /* Section contact */
+  /* ============================== */
+  
+ 

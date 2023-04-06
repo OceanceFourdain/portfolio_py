@@ -1,0 +1,56 @@
+<style>
+    #zombie {
+        width: 200px;
+        height: 200px;
+    }
+    .left{
+
+    }
+    .right{
+
+    }
+    .top{
+
+    }
+    .bottom{
+
+    }
+    .corp{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #zombie {
+        width: 200px;
+        cursor: pointer;
+    }
+
+    .dismembered {
+        visibility: hidden;
+    }
+</style>
+
+<img id="zombie" src="zombie.png" alt="zombie">
+
+<script type="text/javascript">
+    let zombieId = document.getElementById("zombie");
+    let image = document.getElementById("zombie");
+        for(let i = 0; i < image.length; i++) {
+            image[i] = addEventListener("click", change);
+            change[image[i]];
+        }
+    function change(imgage) {
+        let changeNbr = Math.floor(Math.random() * (1 - 4 + 1)) + 1;   
+        let mb = image.id == null? image.target.id : image.id;
+        image.src = ""
+    }
+    const zombie = document.getElementById("zombie");
+
+    zombies.addEventListener("click", function(){
+    zombies.classList.add("dismembered");
+    });
+
+</script>

@@ -1,0 +1,229 @@
+.section-contact {
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-image: url("../../img/fond_color1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.contact-container {
+    width: 90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+}
+  
+  .personal-test-h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .personal-form {
+    margin-top: 5%;
+  }
+  
+  .personal-form-group {
+    width: 550px;
+  }
+  
+  .personal-form-row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+  }
+  
+  .personal-form-input {
+    display: block;
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 3%;
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid white;
+  }
+  
+  
+  .personal-form-textarea {
+    display: block;
+    padding: 3%;
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: lightgrey;
+    border:1px solid white;
+  }
+  
+  .personal-form-button {
+    margin: 0 18%;
+    background-color: #4FA2E0;
+    text-align: center;
+    width: 65%;
+    height: 35px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .personal-form-h4-title {
+    font-family: 'Amatic SC', "Comic Sans MS";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  
+  .form-group-a {
+    text-decoration: none;
+    color: #444;
+    font-size: 30px;
+    margin-left: 4%;
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .section-contact {
+      width: 100%;
+      background-color: #F8F9FA;
+      padding-top: 5%;
+  
+    }
+    .personal-form {
+      margin: 0 auto;
+      width: 550px;
+    }
+  
+    .personal-form-row {
+      display: block;
+  
+    }
+  
+    .personal-form-group {
+      width: 100%;
+    }
+  
+    .personal-form-input {
+      display: block;
+      align-content: center;
+      margin-top: 3%;
+      padding: 3%;
+      margin-left: 15%;
+      width: 70%;
+      height: 50px;
+      background-color: lightgrey;
+      border: 1px solid white;
+    }
+    .personal-form-textarea {
+      display: block;
+      padding: 3%;
+      margin-top: 3%;
+      margin-left: 15%;
+      width: 70%;
+      background-color: lightgrey;
+      border:1px solid white;
+    }
+  
+    .personal-form-button {
+      margin-top: 4%;
+      background-color: #4FA2E0;
+      text-align: center;
+      margin-left: 18%;
+      width: 65%;
+      height: 35px;
+      border: 2px solid #444;
+      color: white;
+      text-transform: uppercase;
+    }
+  
+    .personal-form-h4-title {
+      font-family: 'Amatic SC', "Comic Sans MS";
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 2%;
+      margin-top: 3%;
+    }
+  
+    .form-group-a {
+      text-decoration: none;
+      color: #444;
+      font-size: 30px;
+      margin-left: 4%;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .section-contact {
+      width: 100%;
+      background-color: #F8F9FA;
+      padding-top: 5%;
+    }
+    .personal-form {
+      width: 100%;
+      margin: 0;
+    }
+    .personal-form-group {
+      width: 100%;
+      padding-right: 15%;
+      text-align: center;
+    }
+    .personal-form-input {
+      margin-top: 3%;
+      width: 90%;
+      height: 50px;
+      background-color: lightgrey;
+      border: 1px solid white;
+    }
+    .personal-form-textarea {
+      margin-top: 3%;
+      width: 90%;
+      background-color: lightgrey;
+      border: 1px solid white;
+    }
+  
+    .personal-form-button {
+      margin-top: 4%;
+      background-color: #4FA2E0;
+      width: 90%;
+      height: 35px;
+      border: 2px solid #444;
+      color: white;
+      text-transform: uppercase;
+      margin-right: 5%;
+    }
+  
+    .personal-form-h4-title {
+      font-family: 'Amatic SC', "Comic Sans MS";
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 2%;
+      margin-top: 3%;
+    }
+  
+    .form-group-a {
+      text-decoration: none;
+      color: #444;
+      font-size: 30px;
+    }
+  
+    iframe {
+      width: 100%;
+      margin-left: 10%;
+    }
+    .personal-form-reseau {
+      width: 100%;
+      margin-left: 10%;
+    }
+  }

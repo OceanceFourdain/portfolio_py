@@ -1,0 +1,6 @@
+/.DS_Store
+/.idea
+/get-pip.py
+/Pipfile
+/Pipfile.lock
+/__pycache__

@@ -1,0 +1,49 @@
+{% extends "layouts/base.jinja" %}
+{% block content %}
+
+<section class="section-projet personal-tab-3" id="projet">
+    <h2 class="personal-test-h2">Mes projets</h2>
+    <div class="cart-deck">
+        <div class="cart-personal">
+            <img src="/static/img/dlf.jpg"/>
+            <h4>Dessanco Life France</h4>
+            <!--<p>Site vitrine de jeux</p>-->
+            <a href="#NON-DISPONIBLE" target="_blank" class="personal-a">En savoir plus</a>
+        </div>
+        <div class="cart-personal">
+            <img src="/static/img/voyage.jpg"/>
+            <h4>My travel voyage</h4>
+            <!--<p>Site d'entrainement</p>-->
+            <a href="#NON-DISPONIBLE" target="_blank" class="personal-a">En savoir plus</a>
+        </div>
+        <div class="cart-personal">
+            <img src="/static/img/burger.jpg"/>
+            <h4>Burger code</h4>
+            <!--<p>Site d'entrainement</p>-->
+            <a href="#NON-DISPONIBLE" target="_blank" class="personal-a">En savoir plus</a>
+        </div>
+    </div>
+    <div class="cart-deck">
+        <div class="cart-personal">
+            <img src="/static/img/intranet.jpg"/>
+            <h4>Intranet arma 3</h4>
+            <!--<p>Site d'interraction pour joueur</p>-->
+            <a href="#NON-DISPONIBLE" target="_blank" class="personal-a">En savoir plus</a>
+        </div>
+        <div class="cart-personal">
+            <img src="/static/img/formule1.jpg"/>
+            <h4>Formule 1</h4>
+            <!--<p>Projet bts sio</p>-->
+            <a href="#NON-DISPONIBLE" target="_blank" class="personal-a">En savoir plus</a>
+        </div>
+        <div class="cart-personal">
+            <img src="/static/img/formule1.jpg"/>
+            <h4>Pokedex</h4>
+            <!--<p>Projet bts sio</p>-->
+            <a href="{{ url_for('pokemons')}}" class="personal-a">En savoir plus</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
